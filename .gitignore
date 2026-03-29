@@ -7,10 +7,11 @@ build/
 .idea/
 *.iml
 
-# Visual Studio
+# Visual Studio & Visual Studio Code
 .vs/
 *.vcxproj.user
 *.sln
+.vscode/
 
 # Build outputs
 x64/

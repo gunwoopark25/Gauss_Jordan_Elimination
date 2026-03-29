@@ -1,11 +1,11 @@
 #include "Matrix.h"
-#include<iostream>
-#include<string>
-#include<fstream>
+#include <iostream>
+#include <string>
+#include <fstream>
 
 using namespace std;
 
-void main()
+int main()
 {
 	Matrix matrix3;
 
@@ -22,4 +22,6 @@ void main()
 
 	cout << "Final Inverse Matrix" << endl;
 	matrix3.loadFinalinversematrix();
+
+	return 0;
 }
